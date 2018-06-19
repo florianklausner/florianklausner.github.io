@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>ysl</title>
+		<link rel="stylesheet" href="../style/style.css" type="text/css">
+        
+	</head>
+
+	<body>
+            <div class="navbar">
+                <a href="../index.html">Startseite</a>
+                <a href="Lebenslauf.html">Lebenslauf</a>
+                <a href="Marke.html">Marke</a>
+                <a href="Galerie.html">Galerie</a>
+                <a href="Contact.html">Contact</a>
+            </div> 
+        
+    <div class="row">
+            
+        <div class="main">
+       
+            <h2>Seine Geschichte</h2>
+                <br>
+                <p>
+                    Yves Henri Donat Mathieu-Saint-Laurent, geboren am 1. August 1936 zählt zu den bedeutendsten Modeschöpfern des 20. Jahrhunderts. 1985 schrieb die britische Journalistin Caroline Rennolds Milbank über Saint-Laurent: "Kaum einem der gefeierten Couturiers der letzten 25 Jahre kann die Wiedergeburt der Mode aus der Asche der Nachkriegsjahre so zugerechnet werden ihm." Er wurde in der algerischen 
+                    <br>
+                    <br>
+                    Küstenstadt Oran als Sohn eines Unternehmers geboren und verbrachte dort seine Jugend. Während einer Theatervorstellung entdeckte der Gymnasiast seine Leidenschaft für Kostüme und begann, auch unter dem Einfluss seiner modebegeisterten Mutter, erste Entwürfe zu skizzieren. 
+                    <br>
+                    <br>
+                    1953 reichte er drei Skizzen zu einem Designerwettbewerb ein, gewann den 3. Platz und reiste gemeinsam mit seiner Mutter zur Preisverleihung nach Paris. Dort trafen sie Michel de Brunhoff, damals Chefredakteur der Pariser Ausgabe der "Vogue" und um Förderung junger Talente sehr bemüht. Dieser regte Saint-Laurents Studium an der Pariser Haute-Couture-Schule Chambre Syndicale an. 
+                    <br>
+                    <br>
+                    Während des Studiums gewann Saint-Laurent weitere Preise und wurde von Brunhoff schließlich Christian Dior vorgestellt, für den er bis zu dessen Tod 1957 arbeitete. 1958 lernte Saint-Laurent seinen späteren Lebensgefährten Pierre Bergé kennen. 1960 wurde er zum Kriegsdienst nach Algerien eingezogen, erlitt schon nach einigen Tagen einen Nervenzusammenbruch, weshalb er mit Sedativa behandelt wird  und war seither lebenslang drogenabhängig. 
+                    <br>
+                    <br>
+                    Dior hatte ihn aufgrund seiner Nerven-und Drogenprobleme 1960 entlassen, Bergé und er verklagten jedoch das Modehaus erfolgreich auf 100.000,- $ Abfindung und starteten mit diesem Kapital 1961 ein 
+                    eigenes Unternehmen: Das Yves-Saint-Laurent-Couture. Die Kollektionen, die er fortan entwarf,   provozierten nicht selten Skandale, unter anderem wegen der großen Transparenz der Damenkleider, dem Nude Look, ab 1966 auch als Schiwago-Look klassifiziert. 
+                    <br>
+                    <br>
+                    Er wirkte als Trendsetter stets vor dem Mainstream, zunächst mit rein schwarzen Stoffen, später mit farbenfroher Geometrie, dem Beatnik-Look, Anzügen aus Tweed und ab 1966 dem Damensmoking, der zu einem seiner Markenzeichen werden sollte. Damit schuf er entgegen dem seinerzeit herrschenden Frauen-und Modebild androgyne Fashion, die sich bis heute gehalten hat. Es folgten folkloristische Entwürfe und die Kreation von Parfums. 
+                    <br>
+                    <br>
+                    Seine Marke "Opium" ist neben Chanel N° 5 die erfolgreichste Marke aller Zeiten.
+                    Als er in den 1970er Weltruhm erlangte, gehörten zu seinen Fans Stars wie Loulou und Catherine Deneuve, er selbst förderte Newcomer wie das schwarze Model Naomi Campbell auch gegen erhebliche Widerstände. Seine Inspirationen bezog er unter anderem von klassischen Malern wie Picasso, Goya und Matisse, und die  Kunstwelt antwortete ihm adäquat: 1983 stellte das New Yorker Metropolitan seine Arbeiten aus, was nie zuvor einem lebenden Modedesigner widerfahren war.
+                    1993 verkaufte er sein Modehaus, 2002 zog er sich ganz vom Geschäft zurück. Er starb in Paris an einem Hirntumor. 
+                    <br>
+                </p>
+            </div>
+        
+            <div class="side">
+                <div class="video_box">
+                    <div class="video">
+                        <video controls="controls" poster="../video/poster.jpeg">
+                            <source src="../video/Yves%20Saint%20Laurent%20%20%20%20Part%201%20of%2011.mp4">
+                        </video>
+                    </div>
+                </div>
+                <div id="map"></div>
+                <script>
+                    function initMap() {
+                        var uluru = {lat: 48.8589507, lng: 2.27702};
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru
+                    });
+        
+                        var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                    });
+                }
+                </script>
+                <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx9C8fXtchpS3nOTcpHXx2o8bgLazsDDU&callback=initMap">
+                </script>
+                    <p>- Paris, die Stadt in der Yve geboren wurde</p>
+            </div>
+        </div>
+    </body>
+</html>
